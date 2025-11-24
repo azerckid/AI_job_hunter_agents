@@ -1,19 +1,97 @@
-import os
-from pathlib import Path
-from dotenv import load_dotenv
-from crewai import Agent, Task, Crew, Process, LLM
-from crewai.knowledge.source.string_knowledge_source import StringKnowledgeSource
+import dotenv
 
-# Load environment variables
-load_dotenv()
+dotenv.load_dotenv()
 
-def load_resume():
-    """Load the resume from knowledge directory"""
-    resume_path = Path(__file__).parent / "knowledge" / "resume.txt"
-    if resume_path.exists():
-        return resume_path.read_text()
-    else:
-        raise FileNotFoundError(f"Resume not found at {resume_path}")
+from crewai import Crew, Agent, Task
+from crewai.project import CrewBase, task, agent, crew
+from models import JobList, RankedJobList, ChosenJob
+from tools import web_search_tool
+
+
+@CrewBase
+class JobHunterCrew:
+
+    @agent
+    def job_search_agent(self):
+        return Agent(
+            config=self.agents_config["job_search_agent"],
+            tools=[web_search_tool],
+        )
+
+    @agent
+    def job_matching_agent(self):
+        return Agent(config=self.agents_config["job_matching_agent"])
+
+    @agent
+    def resume_optimization_agent(self):
+        return Agent(config=self.agents_config["resume_optimization_agent"])
+
+    @agent
+    def company_research_agent(self):
+        return Agent(config=self.agents_config["company_research_agent"])
+
+    @agent
+    def interview_prep_agent(self):
+        return Agent(config=self.agents_config["interview_prep_agent"])
+
+    @task
+    def job_extraction_task(self):
+        return Task(
+            config=self.tasks_config["job_extraction_task"],
+            output_pydantic=JobList,
+        )
+
+    @task
+    def job_matching_task(self):
+        return Task(
+            config=self.tasks_config["job_matching_task"],
+            output_pydantic=RankedJobList,
+        )
+
+    @task
+    def job_selection_task(self):
+        return Task(
+            config=self.tasks_config["job_selection_task"],
+            output_pydantic=ChosenJob,
+        )
+
+    @task
+    def resume_rewriting_task(self):
+        return Task(
+            config=self.tasks_config["resume_rewriting_task"],
+            context=[
+                self.job_selection_task(),
+            ],
+        )
+
+    @task
+    def company_research_task(self):
+        return Task(
+            config=self.tasks_config["company_research_task"],
+            context=[
+                self.job_selection_task(),
+            ],
+        )
+
+    @task
+    def interview_prep_task(self):
+        return Task(
+            config=self.tasks_config["interview_prep_task"],
+            context=[
+                self.job_selection_task(),
+                self.resume_rewriting_task(),
+                self.company_research_task(),
+            ],
+        )
+
+    @crew
+    def crew(self):
+        return Crew(
+            agents=self.agents,
+            tasks=self.tasks,
+            verbose=True,
+        )
+
 
 def main():
     print("🚀 Job Hunter Agent - Powered by Gemini")
@@ -26,131 +104,18 @@ def main():
     
     print(f"\n🔍 Searching for {level} {position} jobs in {location}...")
     print("=" * 50)
-    
-    # Configure Gemini LLM
-    gemini_llm = LLM(
-        model="gemini/gemini-2.0-flash-exp",
-        api_key=os.getenv("GEMINI_API_KEY")
-    )
-    
-    # Load resume as knowledge source
-    resume_content = load_resume()
-    resume_knowledge = StringKnowledgeSource(
-        content=resume_content,
-        metadata={"source": "user_resume"}
-    )
-    
-    # Load agents from YAML
-    agents_config = Path(__file__).parent / "config" / "agents.yaml"
-    tasks_config = Path(__file__).parent / "config" / "tasks.yaml"
-    
-    # Create agents with Gemini LLM
-    job_search_agent = Agent(
-        config=agents_config,
-        agent_name="job_search_agent",
-        llm=gemini_llm
-    )
-    
-    job_matching_agent = Agent(
-        config=agents_config,
-        agent_name="job_matching_agent",
-        llm=gemini_llm,
-        knowledge_sources=[resume_knowledge]
-    )
-    
-    resume_optimization_agent = Agent(
-        config=agents_config,
-        agent_name="resume_optimization_agent",
-        llm=gemini_llm,
-        knowledge_sources=[resume_knowledge]
-    )
-    
-    company_research_agent = Agent(
-        config=agents_config,
-        agent_name="company_research_agent",
-        llm=gemini_llm
-    )
-    
-    interview_prep_agent = Agent(
-        config=agents_config,
-        agent_name="interview_prep_agent",
-        llm=gemini_llm
-    )
-    
-    # Create tasks
-    job_extraction_task = Task(
-        config=tasks_config,
-        task_name="job_extraction_task",
-        agent=job_search_agent,
-        context_variables={
-            "position": position,
-            "level": level,
-            "location": location
-        }
-    )
-    
-    job_matching_task = Task(
-        config=tasks_config,
-        task_name="job_matching_task",
-        agent=job_matching_agent,
-        context=[job_extraction_task]
-    )
-    
-    job_selection_task = Task(
-        config=tasks_config,
-        task_name="job_selection_task",
-        agent=job_matching_agent,
-        context=[job_matching_task]
-    )
-    
-    resume_rewriting_task = Task(
-        config=tasks_config,
-        task_name="resume_rewriting_task",
-        agent=resume_optimization_agent,
-        context=[job_selection_task]
-    )
-    
-    company_research_task = Task(
-        config=tasks_config,
-        task_name="company_research_task",
-        agent=company_research_agent,
-        context=[job_selection_task]
-    )
-    
-    interview_prep_task = Task(
-        config=tasks_config,
-        task_name="interview_prep_task",
-        agent=interview_prep_agent,
-        context=[job_selection_task, resume_rewriting_task, company_research_task]
-    )
-    
-    # Create crew
-    crew = Crew(
-        agents=[
-            job_search_agent,
-            job_matching_agent,
-            resume_optimization_agent,
-            company_research_agent,
-            interview_prep_agent
-        ],
-        tasks=[
-            job_extraction_task,
-            job_matching_task,
-            job_selection_task,
-            resume_rewriting_task,
-            company_research_task,
-            interview_prep_task
-        ],
-        process=Process.sequential,
-        verbose=True
-    )
-    
-    # Execute the crew
     print("\n🤖 Starting AI agents workflow...")
     print("=" * 50)
     
     try:
-        result = crew.kickoff()
+        # Execute the crew with inputs
+        result = JobHunterCrew().crew().kickoff(
+            inputs={
+                "position": position,
+                "level": level,
+                "location": location,
+            }
+        )
         
         print("\n" + "=" * 50)
         print("✅ Job Hunter Agent completed successfully!")
