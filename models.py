@@ -1,4 +1,4 @@
-from typing import List
+from typing import List, Union
 from pydantic import BaseModel
 from datetime import date
 
@@ -16,7 +16,7 @@ class Job(BaseModel):
 
     key_qualifications: List[str] | None = None
     job_responsibilities: List[str] | None = None
-    date_listed: date | None = None
+    date_listed: Union[str, date, None] = None
     required_technologies: List[str] | None = None
     core_keywords: List[str] | None = None
 
