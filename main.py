@@ -1,4 +1,6 @@
+import os
 import dotenv
+from pathlib import Path
 
 dotenv.load_dotenv()
 
@@ -6,7 +8,6 @@ from crewai import Crew, Agent, Task
 from crewai.project import CrewBase, task, agent, crew
 from models import JobList, RankedJobList, ChosenJob
 from tools import web_search_tool
-
 
 @CrewBase
 class JobHunterCrew:
@@ -46,6 +47,7 @@ class JobHunterCrew:
         return Task(
             config=self.tasks_config["job_matching_task"],
             output_pydantic=RankedJobList,
+            output_file="output/ranked_jobs.json",
         )
 
     @task
@@ -53,6 +55,7 @@ class JobHunterCrew:
         return Task(
             config=self.tasks_config["job_selection_task"],
             output_pydantic=ChosenJob,
+            output_file="output/chosen_job.json",
         )
 
     @task
@@ -97,6 +100,23 @@ def main():
     print("🚀 Job Hunter Agent - Powered by Gemini")
     print("=" * 50)
     
+    # Read resume content
+    try:
+        resume_path = Path("resume.txt")
+        if not resume_path.exists():
+             # Fallback to knowledge/resume.txt if needed
+             resume_path = Path("knowledge/resume.txt")
+        
+        if resume_path.exists():
+            resume_content = resume_path.read_text()
+            print("✅ Resume loaded successfully!")
+        else:
+            raise FileNotFoundError("Could not find resume.txt or knowledge/resume.txt")
+            
+    except Exception as e:
+        print(f"❌ Error reading resume: {e}")
+        return
+
     # Get user inputs
     position = input("\n📋 What position are you looking for? (e.g., Full Stack Developer): ").strip() or "Full Stack Developer"
     level = input("📊 What level? (e.g., Senior, Mid, Junior): ").strip() or "Senior"
@@ -114,6 +134,7 @@ def main():
                 "position": position,
                 "level": level,
                 "location": location,
+                "resume_content": resume_content,
             }
         )
         
@@ -121,6 +142,8 @@ def main():
         print("✅ Job Hunter Agent completed successfully!")
         print("=" * 50)
         print("\n📁 Output files generated:")
+        print("  - output/ranked_jobs.json")
+        print("  - output/chosen_job.json")
         print("  - output/rewritten_resume.md")
         print("  - output/company_research.md")
         print("  - output/interview_prep.md")

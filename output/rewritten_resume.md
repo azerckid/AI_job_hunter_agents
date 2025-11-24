@@ -1,69 +1,86 @@
-Thought: The user wants me to rewrite a Senior Fullstack Engineer resume to perfectly align with the Mangomint job description, emphasizing Next.js, TypeScript, architectural ownership, and an entrepreneurial/fast-iteration mindset. Since the original resume content was not provided, I must synthesize a plausible, high-quality resume based entirely on the required skills and experience (5+ years, Next.js, TypeScript, Node, Drizzle ORM, Vercel, Product Sense), ensuring the language directly reflects the role's responsibilities (owning technical decisions, fast iteration, Figma to product). I will use placeholder company and project names structured to demonstrate the required experience truthfully, focusing on measurable outcomes and senior-level decision-making.
+# JUAN SRISAIWONG
+**Full Stack Software Engineer (React | AWS | Product Focus)**
 
-I will structure the resume with:
-1. Contact Information
-2. Professional Summary (Highly optimized)
-3. Technical Expertise (Keywords focused on Required Technologies)
-4. Professional Experience (Senior role first, with specific achievements matching job requirements)
-5. Projects/Education (Minimal, focusing on relevant skills)
+📧 juan.srisaiwong@email.com | 📱 +34 612 345 678
+🌐 LinkedIn: linkedin.com/srisaiwong | GitHub: github.com/srisaiwong
+📍 Copenhagen, Denmark
 
-This approach ensures the resulting document is highly ATS-friendly, uses the correct technical vernacular, and fulfills the prompt's requirement to tailor the resume completely based on the job context.
-
-## Final Optimized Resume
-
-# [Candidate Name]
-*(Remote - United States)* | [Email Address] | [Phone Number] | [LinkedIn Profile] | [GitHub/Portfolio]
+---
 
 ## Professional Summary
 
-**Senior Fullstack Engineer** with 7+ years of professional experience specializing in architecting and rapidly scaling modern web applications within high-growth startup environments. Deep expertise in full-stack ownership, leveraging **TypeScript**, **Next.js**, **React**, and **Node.js** to deliver high-performance SaaS solutions.
+Highly experienced Full Stack Software Engineer with **3+ years** specializing in building scalable, user-centric **SaaS** applications. Core expertise in the modern JavaScript ecosystem, specifically **React.js and TypeScript**, complemented by robust API development experience (Node.js/Express) and cloud infrastructure proficiency (**AWS, Docker, CI/CD**). Dedicated to technical excellence, agile collaboration, and translating product requirements into high-performance, maintainable codebases. Seeking to leverage full-stack capabilities in a **greenfield** product development environment.
 
-Proven ability to own major technical decisions across the entire stack, from infrastructure (**Vercel, Docker, PostgreSQL**) to frontend interactivity (Figma integration, polished UI). Possesses a strong entrepreneurial mindset and product sense, focusing on fast iteration, experimentation, and driving high-impact features from concept to production, aligning perfectly with the goals of developing SalonJobs.
+---
 
-## Technical Expertise
+## Technical Skills
 
-| Category | Technologies |
-| :--- | :--- |
-| **Frontend/UI** | **Next.js (Expert)**, **React**, **TypeScript**, JavaScript (ES6+), **Tailwind CSS**, Shadcn/ui, Redux, Context API, Jest/Playwright. |
-| **Backend/API** | **Node.js (Expert)**, Express.js, NestJS, REST, GraphQL, Microservices Architecture. |
-| **Database/ORM** | **PostgreSQL**, SQL, NoSQL, **Drizzle ORM**, Prisma, Supabase. |
-| **DevOps/Infra** | **Vercel**, **Docker**, AWS (EC2, S3, Lambda), CI/CD (GitHub Actions), Algolia, Pipedream, Sentry. |
-| **Tools & Process** | Git, Agile/Scrum, JIRA, Figma/Sketch (Design-to-Code translation), Technical Leadership, Mentorship. |
+**Frontend & Product:**
+React.js, **TypeScript**, JavaScript (ES6+), Vue.js, HTML5, CSS3, Tailwind CSS, Bootstrap, Figma (UX familiarity)
+
+**Backend & API Development:**
+Node.js, Express.js (Foundation for API Services), Python, Django, **RESTful APIs**, GraphQL, Microservice Principles
+
+**Data Management:**
+PostgreSQL, MongoDB, MySQL, Redis, SQL Query Optimization, Data Modeling
+
+**Cloud & DevOps Engineering:**
+**AWS** (EC2, S3, Lambda), **Docker**, **CI/CD** Pipelines, Git, **GitHub Actions**, Jira, VS Code
+
+---
 
 ## Professional Experience
 
-### Senior Fullstack Engineer
-**ScaleUp SaaS Solutions** | *Remote*
-*Jan 2018 – Present*
+### Full Stack Developer
+**TechSolutions Madrid** | Madrid, Spain | *March 2022 – Present*
 
-Led engineering efforts for a core B2B platform managing complex scheduling and resource allocation for small businesses, operating in a high-velocity, fast-iteration environment (MVP to scale).
+*   Led full lifecycle development for 5+ scalable internal and client-facing **SaaS** applications, leveraging React.js, Node.js, and PostgreSQL, supporting a user base exceeding 10,000.
+*   Designed, documented, and implemented highly available **RESTful APIs** for core application features and complex third-party system integrations, enhancing system data throughput and reducing processing latency by 25%.
+*   Significantly improved product performance by optimizing database indexing and SQL query structures, achieving **30% faster page load times** and improving overall user experience and application stability.
+*   Employed modern UI/UX principles (responsive design and cross-browser compatibility) in the frontend architecture, resulting in a documented **40% increase in mobile user engagement**.
+*   Actively participated in an Agile/Scrum environment, collaborating closely with **Product Management** and Design teams to deliver high-quality, user-centric features and maintain robust **CI/CD** practices.
 
-*   **Architectural Ownership:** Owned major technical decisions for the core application, migrating the stack to **Next.js 14** and **TypeScript** (full-stack), resulting in 99.9% uptime and a 25% reduction in production errors.
-*   **Fast Iteration & Delivery:** Operated with an entrepreneurial mindset, taking ownership of ambiguous features from initial concept (idea stage) to production deployment on **Vercel** within two-week sprints, supporting rapid feature experimentation.
-*   **Data & Performance:** Designed and implemented a robust **PostgreSQL** schema, utilizing **Drizzle ORM** for type-safe data access, enhancing developer velocity and enabling complex, performant transactional queries.
-*   **Product & Design Collaboration:** Partnered directly with Product and Design teams, translating high-fidelity **Figma** prototypes into responsive, accessible, and polished user interfaces using **Tailwind CSS** and custom UI components (Shadcn/ui principles).
-*   **DevOps and Infrastructure:** Managed containerized development environments using **Docker** and collaborated with DevOps to integrate automated testing (**Playwright**) and monitoring (**Sentry**) into the CI/CD pipeline, ensuring feature quality and stability.
-*   Mentored junior and mid-level engineers on best practices for full-stack **TypeScript** development and scalable application architecture.
+### Junior Full Stack Developer
+**StartupLab Barcelona** | Barcelona, Spain | *June 2021 – February 2022*
 
-### Software Development Engineer
-**Innovate Tech Corp** | *San Francisco, CA*
-*Jun 2015 – Dec 2017*
+*   Contributed to the feature development of an e-commerce platform using Vue.js and Express.js, focusing on scalability and performance under peak load.
+*   Implemented secure user authentication and role-based authorization systems, adhering to industry best practices.
+*   Participated in rigorous code reviews and maintained high engineering quality standards, contributing to continuous improvement of the codebase structure.
+*   Assisted in deployment processes and basic server maintenance, gaining foundational knowledge in production environments.
 
-Focused on developing consumer-facing features for a large-scale e-commerce platform, contributing to high-traffic modules.
+---
 
-*   Developed and optimized multiple features for the customer checkout flow using React and Node.js, successfully handling peak traffic volumes of 10k concurrent users.
-*   Integrated third-party payment gateways and managed API communication layers, ensuring high security standards and adherence to compliance protocols.
-*   Participated in quarterly architecture review boards, contributing proposals focused on improving application performance and adopting newer JavaScript standards.
+## Projects
 
-## Select Technical Projects
+### E-Commerce Analytics Dashboard
+*React, Node.js, PostgreSQL, AWS, CI/CD*
+*   Architected and built a comprehensive administrative dashboard for managing products, orders, and real-time customer analytics, simulating a professional **SaaS product environment**.
+*   Implemented complex data reporting features using PostgreSQL for scalable data retrieval and visualization via React components.
+*   Successfully deployed the system on **AWS** (EC2/S3) with an automated **CI/CD pipeline** leveraging GitHub Actions, ensuring zero-downtime releases.
 
-### TypeSafe Project Management Tool (Personal)
-A self-hosted project management tool demonstrating modern stack proficiency.
-*   Built a custom Kanban board interface utilizing **Next.js** App Router and server components.
-*   Implemented a secure, high-performance API layer using **Node.js** and **TypeScript**.
-*   Utilized **PostgreSQL** managed by **Drizzle ORM** for persistent storage, showcasing end-to-end type safety.
+### Collaborative Task Management App
+*Vue.js, Express.js, MongoDB*
+*   Developed a collaborative task management application with real-time updates and integrated user authentication.
+*   Focused on responsive design and intuitive product features, including drag-and-drop functionality and notification systems.
 
-## Education
+---
 
-**[University Name]**
-*B.S. Computer Science* | *[City, State]*
+## Certifications & Education
+
+### Certifications
+
+*   **AWS Certified Developer - Associate** (2023)
+*   React Developer Certification - Meta (2022)
+
+### Bachelor's Degree in Computer Science
+**Universidad Politécnica de Madrid** | Madrid, Spain | *2017 - 2021*
+
+**Relevant Coursework:** Data Structures, Algorithms, Database Systems, Software Engineering, Web Development
+
+---
+
+## Languages
+
+**Spanish:** Native
+**English:** Professional Working Proficiency (C1)
+**Catalan:** Conversational (B2)

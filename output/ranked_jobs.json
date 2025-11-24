@@ -1,0 +1,258 @@
+{
+    "ranked_jobs": [
+        {
+            "job": {
+                "job_title": "Fullstack Developer (Magento & Backend Focus)",
+                "company_name": "Robert Half (Client Confidential)",
+                "job_location": "Remote (US)",
+                "is_remote_friendly": true,
+                "employment_type": "Contract / Temporary",
+                "compensation": "$57.00 - $66.00 USD/Hourly",
+                "job_posting_url": "N/A (Sourced via Robert Half platform)",
+                "job_summary": "100% remote, 3-month contract role focused on back-end development and Magento. Requires expertise to create robust and scalable solutions, troubleshooting, and optimizing both front-end and back-end functionalities.",
+                "key_qualifications": [
+                    "Experienced Fullstack Developer",
+                    "Expertise in back-end development and Magento",
+                    "Strong technical background and attention to detail",
+                    "Ability to troubleshoot front-end and back-end issues"
+                ],
+                "job_responsibilities": [
+                    "Develop and maintain Magento-based applications, ensuring optimal performance and scalability.",
+                    "Collaborate with front-end developers to troubleshoot and resolve loading and display issues.",
+                    "Utilize Composer and Cron jobs to manage and automate workflows effectively.",
+                    "Work with GitHub and Bitbucket for version control.",
+                    "Implement and optimize MySQL databases.",
+                    "Apply advanced JavaScript skills to enhance user experience.",
+                    "Conduct regular code reviews to uphold coding standards."
+                ],
+                "date_listed": "2025-11-21",
+                "required_technologies": [
+                    "Magento",
+                    "MySQL",
+                    "Composer",
+                    "Cron jobs",
+                    "GitHub",
+                    "Bitbucket",
+                    "JavaScript",
+                    "React.js",
+                    "CSS",
+                    "HTML"
+                ],
+                "core_keywords": [
+                    "Magento",
+                    "Fullstack",
+                    "Backend",
+                    "E-commerce",
+                    "Contract",
+                    "Remote"
+                ],
+                "role_seniority_level": "Mid-level",
+                "years_of_experience_required": "4+ years (Inferred)",
+                "minimum_education": null,
+                "job_benefits": [
+                    "Contract benefits available through staffing agency (Medical, Vision, Dental)"
+                ],
+                "includes_equity": false,
+                "offers_visa_sponsorship": false,
+                "hiring_company_size": null,
+                "hiring_industry": "E-commerce/Technology",
+                "source_listing_url": "https://www.roberthalf.com/us/en/jobs/all/full-stack-developer",
+                "full_raw_job_description": "<p>We are looking for an experienced Fullstack Developer to join our team on a 100% remote 3-month contract that can be done part time. In this role, you will leverage your expertise in back-end development and Magento to create robust and scalable solutions. This position requires a strong technical background, attention to detail, and a collaborative mindset to troubleshoot and optimize both front-end and back-end functionalities.</p><p>Responsibilities:• Develop and maintain Magento-based applications, ensuring optimal performance and scalability.• Collaborate with front-end developers to troubleshoot and resolve loading and display issues.• Utilize Composer and Cron jobs to manage and automate workflows effectively.• Work with GitHub and Bitbucket for version control and repository management.• Implement and optimize MySQL databases to support application needs.• Ensure seamless integration of page templates and mini-cart architecture within Magento.• Apply advanced JavaScript skills to enhance user experience and application functionality.• Maintain and update content management systems within the Magento framework.• Monitor and refine front-end frameworks, including React.js, CSS, and HTML, for better usability.• Conduct regular code reviews to uphold coding standards and improve system reliability.</p>"
+            },
+            "match_score": 2,
+            "reason": "Low fit. While React and MySQL skills are present, the core requirement is deep expertise in Magento, which the candidate lacks. Furthermore, this is a short-term US remote contract role, making it geographically and type-wise a poor fit for a Denmark-based candidate seeking stability."
+        },
+        {
+            "job": {
+                "job_title": "Full Stack Java Developer III",
+                "company_name": "Robert Half (Client Confidential)",
+                "job_location": "Remote (HQ Allentown, PA)",
+                "is_remote_friendly": true,
+                "employment_type": "Temporary (Long-term contract)",
+                "compensation": "N/A",
+                "job_posting_url": "N/A (Sourced via Robert Half platform)",
+                "job_summary": "A fully remote, long-term contract role within a customer service team focusing on delivering new omnichannel functionality. Requires hands-on full-stack development using .NET Core, Azure services, and JavaScript frameworks.",
+                "key_qualifications": [
+                    "5+ years of full-stack application development experience (hands-on coding)",
+                    "Strong verbal/written communication and facilitation skills",
+                    "Assertive leadership and Agile scrum experience",
+                    "Strong analytical and problem-solving abilities",
+                    "Ability to understand complex architectures and troubleshoot large-scale distributed systems"
+                ],
+                "job_responsibilities": [
+                    "Design, develop, and maintain full-stack applications.",
+                    "Write and implement clean, efficient, and secure code.",
+                    "Collaborate with cross-functional teams and contribute to innovative solutions.",
+                    "Participate in continuous integration and continuous delivery (CI/CD) processes.",
+                    "Troubleshoot and resolve issues in large-scale distributed systems.",
+                    "Develop and maintain RESTful services and work with third-party APIs (Postman, SoapUI, Fiddler).",
+                    "Utilize Azure services (App services, Azure Functions, Logic Apps, Storage).",
+                    "Conduct unit testing, integration testing, and load-testing (Jasmine, Karma, XUnit, JMeter)."
+                ],
+                "date_listed": "2025-11-11",
+                "required_technologies": [
+                    ".Net Core",
+                    "Entity Framework Core",
+                    "WEB API",
+                    "RESTful services",
+                    "CSS (Bootstrap/Angular Material)",
+                    "JavaScript (Angular/React)",
+                    "Azure Compute Services",
+                    "Azure DevOps",
+                    "SQL Server",
+                    "Twilio"
+                ],
+                "core_keywords": [
+                    "Java",
+                    ".NET Core",
+                    "Full-stack",
+                    "Azure",
+                    "CI/CD",
+                    "Contract"
+                ],
+                "role_seniority_level": "Mid-level / Developer III",
+                "years_of_experience_required": "5+ years",
+                "minimum_education": null,
+                "job_benefits": [
+                    "Contract benefits available through staffing agency (Medical, Vision, Dental)"
+                ],
+                "includes_equity": false,
+                "offers_visa_sponsorship": false,
+                "hiring_company_size": null,
+                "hiring_industry": "Technology/Customer Service Solutions",
+                "source_listing_url": "https://www.roberthalf.com/us/en/jobs/all/full-stack-developer",
+                "full_raw_job_description": "We are looking for a skilled Full Stack Java Developer III to join our team on a long-term contract basis. This position offers the opportunity to work remotely while collaborating with teams based in Allentown, Pennsylvania. As a key contributor, you will engage in hands-on coding, leveraging your expertise in full-stack development to deliver robust applications and solutions.Responsibilities:• Design, develop, and maintain full-stack applications, ensuring high performance and scalability.• Write and implement clean, efficient, and secure code as part of daily development activities.• Collaborate with cross-functional teams to understand complex architectures and contribute to innovative solutions.• Participate in continuous integration and continuous delivery (CI/CD) processes to streamline deployment pipelines.• Troubleshoot and resolve issues in large-scale distributed systems, conducting performance analysis and capacity management.• Utilize tools like Postman, SoapUI, and Fiddler to work with web services and third-party APIs.• Develop and maintain RESTful services, ensuring seamless integration with other systems.• Apply secure coding practices and adhere to industry design principles throughout development.• Utilize Azure services, including serverless compute services, storage solutions, and DevOps pipelines, to optimize application performance.• Conduct unit testing, integration testing, and load-testing using tools such as Jasmine, Karma, XUnit, and JMeter."
+            },
+            "match_score": 1,
+            "reason": "Poor fit. The role requires 5+ years of experience (candidate has 3) and a deep focus on .NET Core, Java, and Azure services, which fundamentally mismatches the candidate's Node.js/React/AWS expertise. Location is US Remote, unsuitable for Denmark resident."
+        },
+        {
+            "job": {
+                "job_title": "Full Stack Developer (.NET Core / Angular Focus)",
+                "company_name": "Robert Half (Financial Services/Insurance Client)",
+                "job_location": "100% Remote (U.S.)",
+                "is_remote_friendly": true,
+                "employment_type": "Contract / Temporary (6-8 months, convert potential)",
+                "compensation": "$65.00 - $70.00 USD/Hourly",
+                "job_posting_url": "N/A (Sourced via Robert Half platform)",
+                "job_summary": "100% remote contract position supporting a Financial Services/Insurance portal team. Focus is on Angular and .NET Core development, digitizing capabilities, and infrastructure enhancement. Requires working 8AM-4PM PST hours.",
+                "key_qualifications": [
+                    "Focus in Angular and .NET Core development",
+                    "Working knowledge of user analytics, logging, and monitoring tools",
+                    "Ability to work 8AM-4PM PST hours",
+                    "Experience utilizing automated CI/CD pipelines in DevOps environment"
+                ],
+                "job_responsibilities": [
+                    "Write efficient, reliable, maintainable, and defect-free code.",
+                    "Design and implement software to meet and exceed business objectives.",
+                    "Participate and contribute to software development practices such as design spec and code review.",
+                    "Collaborate with cross-functional teams to design and implement scalable and efficient cloud solutions.",
+                    "Utilize automated CI/CD pipelines to deploy software packages.",
+                    "Write and execute unit tests, integration tests, and performance tests."
+                ],
+                "date_listed": "2025-10-23",
+                "required_technologies": [
+                    "Angular",
+                    ".NET Core",
+                    "CI/CD",
+                    "DevOps",
+                    "Cloud"
+                ],
+                "core_keywords": [
+                    "Angular",
+                    ".NET Core",
+                    "Financial Services",
+                    "Remote US",
+                    "Contract"
+                ],
+                "role_seniority_level": "Mid-level / Experienced",
+                "years_of_experience_required": "3-5+ years (Inferred)",
+                "minimum_education": null,
+                "job_benefits": [
+                    "Contract benefits available through staffing agency (Medical, Vision, Dental, 401k)"
+                ],
+                "includes_equity": false,
+                "offers_visa_sponsorship": false,
+                "hiring_company_size": null,
+                "hiring_industry": "Financial Services/Insurance",
+                "source_listing_url": "https://www.roberthalf.com/us/en/jobs/all/full-stack-developer",
+                "full_raw_job_description": "Robert Half is seeking a Full Stack Developer to support a Financial Services/Insurance organization based in Seattle, WA. This Full Stack Developer will have a focus in Angular and .NET Core development, supporting a portal team with digitizing capabilities, enhancing current infrastructure and breaking into new technology. The position is 100% Remote, offered as a 6-8 month contract opportunity with potential to convert! Apply today!\nJob Details:Duration: 6 - 8 month contract with the potential to convert. Location: 100% Remote – Can be located anywhere in the U.S. Schedule: Must be able to work 8AM-4PM PST hours. Responsibilities:Write efficient, reliable, maintainable, and defect-free code. Design and implement software to meet and exceed business objectives. Participate and contribute to software development practices such as design spec and code review. Collaborate with cross-functional teams to design and implement scalable and efficient cloud solutions. Utilize automated CI/CD pipelines to deploy software packages in a DevOps environment. Working knowledge and ability to use tools to assist with user analytics, logging, and monitoring. Write and execute unit tests, integration tests, and performance tests."
+            },
+            "match_score": 1,
+            "reason": "Poor fit. The tech stack is highly mismatched (focus on .NET Core and Angular vs Node.js/React). The key blocker is the schedule requirement (8AM-4PM PST), which translates to evening/night work (5 PM to 1 AM) for a candidate located in Copenhagen, Denmark."
+        },
+        {
+            "job": {
+                "job_title": "Full Stack - Software Engineer (SaaS)",
+                "company_name": "Robert Half (Confidential Enterprise Client)",
+                "job_location": "Remote (IA, IL, or MO residency required)",
+                "is_remote_friendly": true,
+                "employment_type": "Permanent",
+                "compensation": "Up to $160,000 base annual salary + 5% Bonus",
+                "job_posting_url": "N/A (Sourced via Robert Half platform)",
+                "job_summary": "A permanent, remote role for a greenfield initiative to build a new consumer-facing digital product within a stable enterprise. Work across the full stack using Dart/Flutter, React, and Java/Spring Boot. Looking for strong product focus and ability to drive innovation.",
+                "key_qualifications": [
+                    "3+ years of professional experience in full-stack or product-focused software development",
+                    "Proficiency in Dart and Flutter for mobile development",
+                    "Strong experience with React.js and modern JavaScript/TypeScript",
+                    "Solid backend development skills using Java, Spring Boot, and RESTful APIs",
+                    "Experience with Docker, Kubernetes, and CI/CD pipelines",
+                    "A passion for user experience and product design"
+                ],
+                "job_responsibilities": [
+                    "Collaborate with cross-functional teams to define, design, and deliver impactful product features.",
+                    "Build mobile applications using Flutter and web applications using React.js.",
+                    "Develop backend services and APIs using Java and Spring Boot.",
+                    "Translate product requirements into technical specifications and implementation plans.",
+                    "Participate in product discovery, user research, and feedback loops.",
+                    "Ensure high code quality through testing, code reviews, and CI/CD practices.",
+                    "Contribute to product roadmaps and help prioritize technical initiatives."
+                ],
+                "date_listed": "2025-10-26",
+                "required_technologies": [
+                    "Dart",
+                    "Flutter",
+                    "React.js",
+                    "JavaScript",
+                    "TypeScript",
+                    "Java",
+                    "Spring Boot",
+                    "RESTful APIs",
+                    "Docker",
+                    "Kubernetes",
+                    "CI/CD",
+                    "AWS",
+                    "GCP",
+                    "Azure"
+                ],
+                "core_keywords": [
+                    "SaaS",
+                    "Greenfield",
+                    "Flutter",
+                    "React",
+                    "Java",
+                    "Spring Boot",
+                    "Permanent",
+                    "Remote"
+                ],
+                "role_seniority_level": "Mid-level",
+                "years_of_experience_required": "3+ years",
+                "minimum_education": "2 or 4 year degree Preferred (Computer Science or similar)",
+                "job_benefits": [
+                    "Free medical insurance",
+                    "Free dental insurance",
+                    "Company HSA contributions",
+                    "401k match"
+                ],
+                "includes_equity": null,
+                "offers_visa_sponsorship": false,
+                "hiring_company_size": "Enterprise",
+                "hiring_industry": "Cloud-based SAAS solutions",
+                "source_listing_url": "https://www.roberthalf.com/us/en/jobs/all/full-stack-developer",
+                "full_raw_job_description": "Full-Stack Engineer – Build Something New with the Best of Both Worlds. Are you ready to help build a product from the ground up—without the uncertainty of a startup? We’re launching a greenfield initiative that combines the agility and innovation of a startup with the stability, funding, and proven success of a large enterprise. If you're passionate about crafting user-centric solutions and want to be part of something early, impactful, and exciting, this is your opportunity. What You’ll Do: As a Senior Full-Stack Engineer, you’ll work across the entire technology stack—leveraging Dart/Flutter, React, and Java—to bring new consumer-facing products to life. You’ll collaborate closely with product managers, designers, and stakeholders to deliver features from concept to production, with a strong emphasis on usability, performance, and scalability. Key Responsibilities:• Collaborate with cross-functional teams to define, design, and deliver impactful product features• Build mobile applications using Flutter and web applications using React.js• Develop backend services and APIs using Java and Spring Boot• Translate product requirements into technical specifications and implementation plans• Participate in product discovery, user research, and feedback loops• Ensure high code quality through testing, code reviews, and CI/CD practices• Contribute to product roadmaps and help prioritize technical initiatives• Stay current with emerging technologies and advocate for engineering best practices. What You Bring:• 3+ years of professional experience in full-stack or product-focused software development• Proficiency in Dart and Flutter for mobile development• Strong experience with React.js and modern JavaScript/TypeScript• Solid backend development skills using Java, Spring Boot, and RESTful APIs• Experience with Docker, Kubernetes, and CI/CD pipelines• Familiarity with cloud platforms (AWS, GCP, or Azure) and DevOps practices• Exposure to GraphQL, Firebase, or WebSockets is a plus• A passion for user experience and product design• Strong communication, collaboration, and problem-solving skills"
+            },
+            "match_score": 3,
+            "reason": "Technically the strongest fit among the list (React, TypeScript, 3+ years experience, CI/CD, permanent role). However, the backend requires Java/Spring Boot (a shift from Node.js), and the explicit residency requirement (IA, IL, or MO) is a firm disqualifier for a candidate based in Denmark."
+        }
+    ]
+}

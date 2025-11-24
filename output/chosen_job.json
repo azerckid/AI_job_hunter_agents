@@ -1,0 +1,73 @@
+{
+    "job": {
+        "job_title": "Full Stack - Software Engineer (SaaS)",
+        "company_name": "Robert Half (Confidential Enterprise Client)",
+        "job_location": "Remote (IA, IL, or MO residency required)",
+        "is_remote_friendly": true,
+        "employment_type": "Permanent",
+        "compensation": "Up to $160,000 base annual salary + 5% Bonus",
+        "job_posting_url": "N/A (Sourced via Robert Half platform)",
+        "job_summary": "A permanent, remote role for a greenfield initiative to build a new consumer-facing digital product within a stable enterprise. Work across the full stack using Dart/Flutter, React, and Java/Spring Boot. Looking for strong product focus and ability to drive innovation.",
+        "key_qualifications": [
+            "3+ years of professional experience in full-stack or product-focused software development",
+            "Proficiency in Dart and Flutter for mobile development",
+            "Strong experience with React.js and modern JavaScript/TypeScript",
+            "Solid backend development skills using Java, Spring Boot, and RESTful APIs",
+            "Experience with Docker, Kubernetes, and CI/CD pipelines",
+            "A passion for user experience and product design"
+        ],
+        "job_responsibilities": [
+            "Collaborate with cross-functional teams to define, design, and deliver impactful product features.",
+            "Build mobile applications using Flutter and web applications using React.js.",
+            "Develop backend services and APIs using Java and Spring Boot.",
+            "Translate product requirements into technical specifications and implementation plans.",
+            "Participate in product discovery, user research, and feedback loops.",
+            "Ensure high code quality through testing, code reviews, and CI/CD practices.",
+            "Contribute to product roadmaps and help prioritize technical initiatives."
+        ],
+        "date_listed": "2025-10-26",
+        "required_technologies": [
+            "Dart",
+            "Flutter",
+            "React.js",
+            "JavaScript",
+            "TypeScript",
+            "Java",
+            "Spring Boot",
+            "RESTful APIs",
+            "Docker",
+            "Kubernetes",
+            "CI/CD",
+            "AWS",
+            "GCP",
+            "Azure"
+        ],
+        "core_keywords": [
+            "SaaS",
+            "Greenfield",
+            "Flutter",
+            "React",
+            "Java",
+            "Spring Boot",
+            "Permanent",
+            "Remote"
+        ],
+        "role_seniority_level": "Mid-level",
+        "years_of_experience_required": "3+ years",
+        "minimum_education": "2 or 4 year degree Preferred (Computer Science or similar)",
+        "job_benefits": [
+            "Free medical insurance",
+            "Free dental insurance",
+            "Company HSA contributions",
+            "401k match"
+        ],
+        "includes_equity": null,
+        "offers_visa_sponsorship": false,
+        "hiring_company_size": "Enterprise",
+        "hiring_industry": "Cloud-based SAAS solutions",
+        "source_listing_url": "https://www.roberthalf.com/us/en/jobs/all/full-stack-developer",
+        "full_raw_job_description": "Full-Stack Engineer – Build Something New with the Best of Both Worlds. Are you ready to help build a product from the ground up—without the uncertainty of a startup? We’re launching a greenfield initiative that combines the agility and innovation of a startup with the stability, funding, and proven success of a large enterprise. If you're passionate about crafting user-centric solutions and want to be part of something early, impactful, and exciting, this is your opportunity. What You’ll Do: As a Senior Full-Stack Engineer, you’ll work across the entire technology stack—leveraging Dart/Flutter, React, and Java—to bring new consumer-facing products to life. You’ll collaborate closely with product managers, designers, and stakeholders to deliver features from concept to production, with a strong emphasis on usability, performance, and scalability. Key Responsibilities:• Collaborate with cross-functional teams to define, design, and deliver impactful product features• Build mobile applications using Flutter and web applications using React.js• Develop backend services and APIs using Java and Spring Boot• Translate product requirements into technical specifications and implementation plans• Participate in product discovery, user research, and feedback loops• Ensure high code quality through testing, code reviews, and CI/CD practices• Contribute to product roadmaps and help prioritize technical initiatives• Stay current with emerging technologies and advocate for engineering best practices. What You Bring:• 3+ years of professional experience in full-stack or product-focused software development• Proficiency in Dart and Flutter for mobile development• Strong experience with React.js and modern JavaScript/TypeScript• Solid backend development skills using Java, Spring Boot, and RESTful APIs• Experience with Docker, Kubernetes, and CI/CD pipelines• Familiarity with cloud platforms (AWS, GCP, or Azure) and DevOps practices• Exposure to GraphQL, Firebase, or WebSockets is a plus• A passion for user experience and product design• Strong communication, collaboration, and problem-solving skills"
+    },
+    "selected": true,
+    "reason": "This permanent role offers the strongest alignment with the candidate's experience level (3+ years), utilizes the candidate's core frontend skill (React.js/TypeScript), and aligns with career goals (Greenfield SaaS, CI/CD, high compensation). It is the best technical match, even though the backend requires Java/Spring Boot (a manageable shift from Node.js) and the mandatory US state residency requirement is a known geographical barrier common to all jobs listed."
+}
